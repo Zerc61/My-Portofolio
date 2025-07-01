@@ -1,236 +1,218 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="id">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>welcome to my portofolio</title>
+    <title>Portofolio Anjar Wicaksono</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&family=Roboto:wght@300;400;500&display=swap">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet" href="assets/css/style.css">
-    <link href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
-
-</head>
+    </head>
 <body>
-
-  <!-- Overlay Blur -->
-<div id="overlay" onclick="hideContact()"></div>
-
-<!-- Kotak Contact -->
-<div id="contact-box">
-  <h2>Hubungi Saya</h2>
-  <div class="icon-list">
-    <a href="mailto:kuntanti@example.com" title="Email">
-      <img src="https://cdn-icons-png.flaticon.com/512/732/732200.png" alt="Email">
-    </a>
-    <a href="https://github.com/namakamu" target="_blank" title="GitHub">
-      <img src="https://cdn-icons-png.flaticon.com/512/25/25231.png" alt="GitHub">
-    </a>
-    <a href="https://instagram.com/kamu_aja" target="_blank" title="Instagram">
-      <img src="https://cdn-icons-png.flaticon.com/512/2111/2111463.png" alt="Instagram">
-    </a>
-  </div>
-  <button onclick="hideContact()">Tutup</button>
-</div>
-
-
     <header>
-    <h2>Anjar Wicaksono</h2>
-   <div class="hamburger" id="hamburger">
-    <span></span>
-    <span></span>
-    <span></span>
-</div>
-
-    <nav>
-        <ul>
-            <li><a href="#home">Home</a></li>
-            <li><a href="#about">About</a></li>
-            <li><a href="#project">Projects</a></li>
-            <li><a onclick="showContact()">Contact</a></li>
-        </ul>
-    </nav>
-</header>
-
-<section id="home" class="hero" data-aos="fade-left" data-aos-duration="1000">
-    <div class="hero-text">
-        <h3>WELCOME</h3>
-        <p>to my portofolio website</p>
-        <p>My name is Anjar Wicaksono, I am a student
-         passionate about software engineering and design.
-         Let's explore my work!</p>
-    </div>
-    <div class="hero-logo">
-        <img src="assets/img/logo.png" alt="Logo" />
-    </div>
-</section>
-
-<section id="about" class="about" data-aos="fade-left" data-aos-duration="1000">
-    <div class="about-text">
-    <h2>ABOUT ME</h2>
-    <p>Hi there! My name is Anjar Wicaksono, and I am currently a student at SMKS BAHRUL ULUM SURABAYA, 
-       majoring in Software Engineering (SE).  I am a diligent,  motivated,  and enthusiastic learner who 
-       always strives to improve myself </p>
-    <p>I have a strong interest and skills in the field of Software Engineering,  and I actively participate 
-       in various school activities and projects related to my field.  My goal is to master these skills and 
-       prepare myself for a successful career in the future. </p>
-    <p>Throughout my studies,  I have gained experience in programming languages such as HTML ,CSS and JAVASCRIPT, 
-       and I have developed several projects that demonstrate my ability to solve real-world problems. I am committed 
-       to continuous learning and always eager to take on new challenges.</p>
-    </div>
-
-</section>
-
-  <div class="main-content-wrapper">
-
-        <section class="study-section" data-aos="fade-right" data-aos-duration="1000">
-            <h2 class="section-title">STUDY</h2>
-            
-            <div class="study-card">
-                <img src="assets/img/logos.png" alt="Logo Sekolah" class="school-logo">
-                
-                <div class="study-info">
-                    <h3>SMKS BAHRUL ULUM SURABAYA</h3>
-                    <p>Software Engineering</p>
-                    <p><em>extracurricular:</em><br>journalism and programming</p>
-                </div>
-            </div>
-        </section>
-
-        <section class="skill-section" data-aos="fade-left" data-aos-duration="1000">
-            <h2 class="section-title">SKILL</h2>
-
-            <ul class="skill-list">
-                <li>HTML</li>
-                <li>CSS</li>
-                <li>JavaScript</li>
-                <li>Design</li>
+        <nav class="navbar">
+            <div class="logo">Anjar Wicaksono</div>
+            <ul class="nav-links">
+                <li><a href="#home">Beranda</a></li>
+                <li><a href="#about">Tentang</a></li>
+                <li><a href="#education">Pendidikan</a></li>
+                <li><a href="#skills">Keahlian</a></li>
+                <li><a href="#projects">Proyek</a></li>
+                <li><a href="#contact">Kontak</a></li>
             </ul>
+            <div class="burger">
+                <div class="line1"></div>
+                <div class="line2"></div>
+                <div class="line3"></div>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section id="home" class="hero-section">
+            <div class="hero-content">
+                <div class="hero-main-flex">
+                    <div class="hero-image-container" data-aos="zoom-in" data-aos-duration="1000"> <img src="assets/img/cool.svg" alt="Foto Profil" class="profile-photo">
+                    </div>
+                    <div class="hero-text-container">
+                        <h1 data-aos="fade-up" data-aos-delay="300" data-aos-duration="1000">Halo, Saya <span class="highlight-text">Anjar Wicaksono</span></h1>
+                        <p data-aos="fade-up" data-aos-delay="500" data-aos-duration="1000">Seorang Siswa yang bersemangat dalam membangun pengalaman digital yang menarik dan fungsional.</p>
+                        <div class="social-links" data-aos="fade-up" data-aos-delay="700" data-aos-duration="1000">
+                            <a href="#" target="_blank" aria-label="LinkedIn"><i class="fab fa-linkedin"></i></a>
+                            <a href="github.com/Zerc61" target="_blank" aria-label="GitHub"><i class="fab fa-github"></i></a>
+                            <a href="https://x.com/WicakAnjur" target="_blank" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+                            <a href="https://www.instagram.com/ganjar_bu8/" target="_blank" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                        </div>
+                        <a href="#projects" class="btn primary-btn" data-aos="zoom-in" data-aos-delay="900" data-aos-duration="1000">Lihat Proyek Saya</a>
+                    </div>
+                </div>
+            </div>
         </section>
-    </div>
-    <section id="project" class="projects-new">
-    <h3 class="section-title">MY PROJECTS</h3>
-    <p class="projects-new-description">Explore some of my recent works that showcase my skills and passion for creating impactful solutions. Each project highlights my journey in design and development.</p>
 
+        <section id="about" class="section-padding about-section">
+            <h2 data-aos="fade-down" data-aos-duration="800">Tentang Saya</h2> <div class="about-content" data-aos="fade-up" data-aos-delay="200" data-aos-duration="1000">
+                <p>Nama saya Anjar, seorang Siswa dengan pengalaman dalam HTML, CSS, JavaScript, PHP, Sql, Figma. Saya bersemangat dalam menciptakan solusi web yang bersih, efisien, dan ramah pengguna. Saya percaya bahwa desain yang baik dan kode yang solid adalah kunci untuk pengalaman digital yang luar biasa.</p>
+                <p>Selain coding, saya menikmati hobby yaitu Bersepeda. Saya selalu mencari tantangan baru dan peluang untuk belajar serta berkembang di dunia pengembangan web yang dinamis.</p>
+            </div>
+        </section>
+
+        <section id="education" class="education-section section-padding">
+            <h2 data-aos="fade-down" data-aos-duration="800">Pendidikan</h2>
+            <div class="education-card" data-aos="fade-right" data-aos-duration="1000"> <h3>SMK Bahrul Ulum Surabaya</h3>
+                <p class="school-info">Jurusan Rekayasa Perangkat Lunak (RPL)</p>
+                <p class="duration">2024 - Sekarang (belum lulus)</p>
+                <p class="description">Di SMK Bahrul Ulum Surabaya, saya mendalami berbagai aspek pengembangan perangkat lunak, mulai dari dasar-dasar pemrograman hingga pengembangan aplikasi web dan database. Beberapa mata pelajaran dan fokus studi meliputi:</p>
+                <ul>
+                    <li data-aos="fade-right" data-aos-delay="100">Pemrograman Dasar (Python, Java)</li>
+                    <li data-aos="fade-right" data-aos-delay="200">Basis Data (MySQL, Konsep SQL)</li>
+                    <li data-aos="fade-right" data-aos-delay="300">Pemrograman Web (HTML, CSS, JavaScript, PHP)</li>
+                    <li data-aos="fade-right" data-aos-delay="400">Desain Grafis (Dasar UI/UX)</li>
+                    <li data-aos="fade-right" data-aos-delay="500">Pengembangan Aplikasi Berbasis Objek</li>
+                    <li data-aos="fade-right" data-aos-delay="600">Praktik Kerja Industri (PKL) di [Nama Perusahaan Magang, jika sudah]</li>
+                </ul>
+            </div>
+            </section>
+
+        <section id="skills" class="section-padding skills-section">
+            <h2 data-aos="fade-down" data-aos-duration="800">Keahlian</h2>
+            <div class="skills-grid">
+                <div class="skill-item" data-aos="zoom-in" data-aos-delay="50">
+                    <i class="fab fa-html5 skill-icon html5"></i>
+                    <p>HTML</p>
+                </div>
+                <div class="skill-item" data-aos="zoom-in" data-aos-delay="100">
+                    <i class="fab fa-css3-alt skill-icon css3"></i>
+                    <p>CSS</p>
+                </div>
+                <div class="skill-item" data-aos="zoom-in" data-aos-delay="150">
+                    <i class="fab fa-js-square skill-icon javascript"></i>
+                    <p>JavaScript</p>
+                </div>
+                <div class="skill-item" data-aos="zoom-in" data-aos-delay="200">
+                    <i class="fab fa-react skill-icon react"></i>
+                    <p>React</p>
+                </div>
+                <div class="skill-item" data-aos="zoom-in" data-aos-delay="250">
+                    <i class="fab fa-node-js skill-icon nodejs"></i>
+                    <p>Node.js</p>
+                </div>
+                <div class="skill-item" data-aos="zoom-in" data-aos-delay="300">
+                    <i class="fab fa-python skill-icon python"></i>
+                    <p>Python</p>
+                </div>
+                <div class="skill-item" data-aos="zoom-in" data-aos-delay="350">
+                    <i class="fab fa-php skill-icon php"></i>
+                    <p>PHP</p>
+                </div>
+                <div class="skill-item" data-aos="zoom-in" data-aos-delay="400">
+                    <i class="fab fa-git-alt skill-icon git"></i>
+                    <p>Git</p>
+                </div>
+                <div class="skill-item" data-aos="zoom-in" data-aos-delay="450">
+                    <i class="fab fa-github skill-icon github"></i>
+                    <p>GitHub</p>
+                </div>
+                <div class="skill-item" data-aos="zoom-in" data-aos-delay="500">
+                    <i class="fab fa-figma skill-icon figma"></i>
+                    <p>Figma</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="projects" class="section-padding projects-section">
+    <h2 data-aos="fade-down" data-aos-duration="800">Proyek</h2>
     <div class="projects-grid">
-
-        <div class="project-card">
-            <img src="assets/img/portfolio.png" alt="My Portofolio Project" class="project-card-image">
-            <div class="project-card-content">
-                <h4 class="project-card-title">My Portofolio</h4>
-                <p class="project-card-description">This project showcases my skills in web development and UI/UX design, representing my personal brand and professional journey.</p>
-                <div class="project-card-tags">
-                    <span>HTML</span>
-                    <span>CSS</span>
+        <div class="project-card" data-aos="fade-up" data-aos-duration="1000">
+            <img src="assets/img/portofolio.png" alt="Website Portofolio Pribadi" loading="lazy"> <div class="project-info">
+                <h3>Website Portofolio Pribadi</h3>
+                <p class="project-desc">Membangun website portofolio responsif ini dari nol untuk menampilkan keahlian dan proyek-proyek saya. Menggunakan HTML5, CSS3, dan JavaScript untuk memastikan desain yang modern, antarmuka pengguna yang intuitif, serta pengalaman animasi yang mulus saat scrolling.</p>
+                <div class="project-tech">
+                    <span>HTML5</span>
+                    <span>CSS3</span>
                     <span>JavaScript</span>
+                    <span>Responsif Design</span>
+                    <span>AOS Library</span>
                 </div>
-                <a href="#" class="project-card-button">View Case Study <i class="fas fa-arrow-right"></i></a>
+                <div class="project-links">
+                    <a href="#home" target="_blank" class="project-btn"><i class="fas fa-external-link-alt"></i> Demo</a> <a href="#" target="_blank" class="project-btn"><i class="fab fa-github"></i> Kode</a> </div>
             </div>
         </div>
 
-        <div class="project-card">
-            <img src="assets/img/masakan.png" alt="Masakan Nusantara Project" class="project-card-image">
-            <div class="project-card-content">
-                <h4 class="project-card-title">Masakan Nusantara</h4>
-                <p class="project-card-description">A web application dedicated to exploring the rich culinary heritage of Indonesia, featuring various traditional recipes.</p>
-                <div class="project-card-tags">
-                    <span>HTML</span>
-                    <span>CSS</span>
+        <div class="project-card" data-aos="fade-up" data-aos-delay="200" data-aos-duration="1000">
+            <img src="assets/img/masakan.png" alt="Website Resep Masakan Nusantara" loading="lazy"> <div class="project-info">
+                <h3>Website Resep Masakan Nusantara</h3>
+                <p class="project-desc">Mengembangkan platform resep digital yang didedikasikan untuk melestarikan dan berbagi kekayaan kuliner Indonesia. Proyek ini melibatkan desain antarmuka yang menarik untuk navigasi resep, serta implementasi fitur pencarian dan kategori menggunakan HTML, CSS, dan JavaScript.</p>
+                <div class="project-tech">
+                    <span>HTML5</span>
+                    <span>CSS3</span>
                     <span>JavaScript</span>
+                    <span>UI/UX Design</span>
+                    <span>Data Handling (Lokal/API)</span>
                 </div>
-                <a href="https://zerc61.github.io/Masakan-Nusantara/" class="project-card-button">View Case Study <i class="fas fa-arrow-right"></i></a>
+                <div class="project-links">
+                    <a href="https://zerc61.github.io/Masakan-Nusantara/" target="_blank" class="project-btn"><i class="fas fa-external-link-alt"></i> Demo</a>
+                    <a href="https://github.com/Zerc61/Masakan-Nusantara" target="_blank" class="project-btn"><i class="fab fa-github"></i> Kode</a>
+                </div>
             </div>
         </div>
 
-        <div class="project-card">
-            <img src="assets/img/sekolah.png" alt="Web Sekolah Project" class="project-card-image">
-            <div class="project-card-content">
-                <h4 class="project-card-title">Web Sekolah</h4>
-                <p class="project-card-description">Developed a responsive and user-friendly website for a local school, providing essential information for students and parents.</p>
-                <div class="project-card-tags">
-                    <span>HTML</span>
-                    <span>CSS</span>
-                    <span>JavaScript</span>
+        <div class="project-card" data-aos="fade-up" data-aos-delay="400" data-aos-duration="1000">
+            <img src="assets/img/sekolah.png" alt="Website Informasi Sekolah" loading="lazy"> <div class="project-info">
+                <h3>Website Informasi Sekolah (maintance)</h3>
+                <p class="project-desc">Membangun website informatif untuk sebuah institusi pendidikan, berfungsi sebagai pusat informasi utama bagi siswa, orang tua, dan calon pendaftar. Fokus pada **struktur konten yang jelas, desain responsif, dan integrasi fitur seperti profil sekolah, berita, dan galeri menggunakan HTML, CSS, dan PHP.</p>
+                <div class="project-tech">
+                    <span>HTML5</span>
+                    <span>CSS3</span>
+                    <span>PHP</span>
+                    <span>MySQL (Opsional)</span>
+                    <span>Content Management</span>
                 </div>
-                <a href="https://zerc61.github.io/website-sekolah/" class="project-card-button">View Case Study <i class="fas fa-arrow-right"></i></a>
+                <div class="project-links">
+                    <a href="#" target="_blank" class="project-btn"><i class="fas fa-external-link-alt"></i> Demo</a>
+                    <a href="#" target="_blank" class="project-btn"><i class="fab fa-github"></i> Kode</a>
+                </div>
             </div>
         </div>
-
-        </div>
+    </div>
 </section>
-  <footer class="footer-container">
-        <div class="footer-left">
-            <div class="profile-pic-container">
-                <img src="assets/img/images.png" alt="Profile Picture" class="profile-pic">
-            </div>
-            <h2 class="name-footer">Anjar Wicaksono</h2>
-            <div class="skills-footer">
-                <span class="skill-tag">HTML</span>
-                <span class="skill-tag">CSS</span>
-                <span class="skill-tag">JS</span>
-                <span class="skill-tag">DESAIN</span>
-            </div>
-        </div>
 
-        <div class="footer-center">
-            <div class="contact-item">
-                <i class="fab fa-github icon-footer"></i>
-                <span>@Zerc61</span>
+        <section id="contact" class="section-padding contact-section">
+            <h2 data-aos="fade-down" data-aos-duration="800">Kontak</h2>
+            <p data-aos="fade-up" data-aos-delay="100" data-aos-duration="1000">Tertarik untuk berkolaborasi atau sekadar menyapa? Jangan ragu untuk menghubungi saya!</p>
+            <div class="contact-methods">
+                <div class="contact-method-card" data-aos="zoom-in" data-aos-delay="200">
+                    <i class="fas fa-envelope contact-icon"></i>
+                    <p>Email</p>
+                    <span>sampbernad@gmail.com</span>
+                </div>
+                <div class="contact-method-card" data-aos="zoom-in" data-aos-delay="400">
+                    <i class="fab fa-linkedin contact-icon"></i>
+                    <p>LinkedIn</p>
+                    <span>Anjar Wicaksono</span>
+                </div>
+                <div class="contact-method-card" data-aos="zoom-in" data-aos-delay="600">
+                    <i class="fas fa-phone-alt contact-icon"></i>
+                    <p>Telepon</p>
+                    <span>+62 823-3608-2154</span>
+                </div>
             </div>
-            <div class="contact-item">
-                <i class="far fa-envelope icon-footer"></i>
-                <span>sampbernad@gmail.com</span>
-            </div>
-            <div class="contact-item">
-                <i class="fab fa-instagram icon-footer"></i>
-                <span>Zercus</span>
-            </div>
-            <div class="contact-item">
-                <i class="fab fa-facebook icon-footer"></i>
-                <span>Zercuss</span>
-            </div>
-        </div>
+        </section>
+    </main>
 
-        <div class="footer-right">
-            <p class="quote">"Dunia ini merubah mu dengan hal yang tidak kamu suka, kamu akan menyukai hasilnya, namun tidak dengan prosesnya"</p>
-            <p class="quote-author">Anjar</p>
-        </div>
+    <footer>
+        <p>&copy; 2025 Anjar Wicaksono. Semua Hak Dilindungi.</p>
     </footer>
 
-
-<script>
-const hamburger = document.getElementById('hamburger');
-const navList = document.querySelector('nav ul');
-const overlay = document.getElementById('overlay');
-
-hamburger.addEventListener('click', () => {
-    hamburger.classList.toggle('active');
-    navList.classList.toggle('show');
-    document.body.classList.toggle('menu-active');
-});
-
-overlay.addEventListener('click', () => {
-    // Kalau contact box lagi muncul, tutup contact
-    if (document.getElementById('contact-box').classList.contains('show')) {
-        hideContact();
-    } else {
-        // Tutup hamburger menu
-        hamburger.classList.remove('active');
-        navList.classList.remove('show');
-        document.body.classList.remove('menu-active');
-    }
-});
-
-function showContact() {
-    document.getElementById('overlay').classList.add('show');
-    document.getElementById('contact-box').classList.add('show');
-}
-
-function hideContact() {
-    document.getElementById('overlay').classList.remove('show');
-    document.getElementById('contact-box').classList.remove('show');
-}
-</script>
-
-<script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
-<script src="assets/js/script.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init({
+            duration: 1000, // Durasi animasi dalam ms
+            easing: 'ease-in-out', // Jenis easing
+            once: true, // Animasi hanya terjadi sekali
+            mirror: false // Animasi hanya terjadi saat scroll ke bawah
+        });
+    </script>
+    <script src="assets/js/script.js"></script>
 </body>
 </html>
